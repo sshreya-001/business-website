@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Blackstone website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body> 
+        <section class="sub-header" id="homesection">
+            <nav>
+                <a href="index.html"><img src="images/bsl1.jpeg"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li><link rel="stylesheet" href="">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+
+</nav>
+<h1>ABOUT US</h1>
+
+        </section>
+ <!--------about us content------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>we are the worlds  best service providers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur, repudiandae magni eligendi corporis culpa temporibus, reiciendis tempore sed maiores ratione delectus. Quisquam, ex perspiciatis corrupti reiciendis quam ametLorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur praesentium at debitis repellat sint nihil vel vero consectetur iste reiciendis nostrum illo, quos adipisci! Nam dolorem qui maiores esse facere!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptatem qui accusantium, tempora soluta dolor vitae esse ducimus facilis at libero. Esse ad cum dolor harum sunt soluta repudiandae vero.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sequi, nemo cumque ipsum aliquid natus tenetur vitae eos! Doloremque, veniam assumenda consequatur repellendus molestiae quae necessitatibus sint tenetur corrupti atque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio unde nesciunt quas deserunt sunt. Necessitatibus, excepturi debitis placeat cumque, dolor aliquam quos fugiat quibusdam assumenda pariatur facere atque eos.
+            </p>
+            <a href="" class="black-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/sec.jpg">
+        </div>
+    </div>
+</section>
+        
+<!--------footer------->
+<footer>
+    <div class="container">
+        <div class="newsLetterContainer">
+            <img src="../images/clogo.jpeg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam dolore cupiditate eum alias sed tenetur! At, id eveniet minus ipsa amet vel similique earum, animi velit non fugiat rem?
+            </p>
+            <input type="text" placeholder="enter your email id" />
+        </div>
+        <!-- newsLetterContainer -->
+
+        <div class="linksContainer">
+            <div class="title">Useful Links</div>
+
+            <ul>
+                <li>
+                    <a href="#homesection">HOME</a>
+                </li>
+                <li>
+                    <a href="#worksection">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#servicessection">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#worksection">BLOG</a>
+                </li>
+                <li>
+                    <a href="#ctasection">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <!-- .connectContainer -->
+
+        <div class="connectContainer">
+            <div class="title">Connect With Us</div>
+            <p>
+                VIT bhopal University,Sehore <br/>
+                121001, Bhopal
+            </p>
+            <p>chhanv@ngo.com</p>
+            <p>(+91) 9898989898</p>
+        </div>
+        <!-- .connectContainer -->
+    </div>
+</footer>
+
+
+<!--------javascript for toggle menu------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html> 

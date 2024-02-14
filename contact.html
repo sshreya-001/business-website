@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Blackstone website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body> 
+        <section class="sub-header" id="homesection">
+            <nav>
+                <a href="index.html"><img src="images/bsl1.jpeg"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li><link rel="stylesheet" href="">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+
+</nav>
+<h1>CONTACT US</h1>
+</section>
+
+<!--------CONTACT PAGE------->
+
+     <section class ="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.656913249066!2d77.1683829!3d28.519968300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e7f3451fd07%3A0x10267a05089bfcc1!2sKishangarh%20-%20Mehrauli%20Rd%2C%20Kishangarh%20Village%2C%20Sector-A%2C%20Vasant%20Kunj%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1687081708408!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-duotone fa-phone"></i>
+                    <span>
+                        <h5>1234567890</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-light fa-house-user"></i>
+                    <span>
+                        <h5>XYZ Building ABC Road</h5>
+                        <p>Delhi, India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-light fa-envelope"></i>                    <span>
+                        <h5>blackstone@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="enter your name" required>
+                    <input type="email" name="email" placeholder="enter email address" required>
+                    <input type="text" name="subject" placeholder="enter your enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="message" required></textarea>
+                    <button type="submit" class="black-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+<!--------footer------->
+<footer>
+    <div class="container">
+        <div class="newsLetterContainer">
+            <img src="../images/clogo.jpeg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam dolore cupiditate eum alias sed tenetur! At, id eveniet minus ipsa amet vel similique earum, animi velit non fugiat rem?
+            </p>
+            <input type="text" placeholder="enter your email id" />
+        </div>
+        <!-- newsLetterContainer -->
+
+        <div class="linksContainer">
+            <div class="title">Useful Links</div>
+
+            <ul>
+                <li>
+                    <a href="#homesection">HOME</a>
+                </li>
+                <li>
+                    <a href="#worksection">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#servicessection">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#worksection">BLOG</a>
+                </li>
+                <li>
+                    <a href="#ctasection">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <!-- .connectContainer -->
+
+        <div class="connectContainer">
+            <div class="title">Connect With Us</div>
+            <p>
+                VIT bhopal University,Sehore <br/>
+                121001, Bhopal
+            </p>
+            <p>chhanv@ngo.com</p>
+            <p>(+91) 9898989898</p>
+        </div>
+        <!-- .connectContainer -->
+    </div>
+</footer>
+
+
+<!--------javascript for toggle menu------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html> 
